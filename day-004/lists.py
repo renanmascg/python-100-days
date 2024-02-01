@@ -28,4 +28,6 @@ states = [
   'TO',
 ]
 
-states.index()
+position_of_SP = states.index('SP')
+
+print(position_of_SP) # retorna a posição no array referente a SP
